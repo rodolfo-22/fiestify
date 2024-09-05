@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+  <div>
+    <img src="https://img.shields.io/badge/-Next_JS_14-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="Next.js" />
+    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/-Stripe-black?style=for-the-badge&logoColor=white&logo=stripe&color=008CDD" alt="stripe" />
+  </div>
 
-First, run the development server:
+  <h3 align="center">App Full Stack de administracion de eventos en tu localidad</h3>
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📋 <a name="table">Tabla de contenidos</a>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 🤸 [Quick Start](#quick-start)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## <a name="introduction">🤖 Introduction</a>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Desarrollada con Next.js, esta aplicación de eventos es una plataforma completa y versátil para organizar y gestionar eventos. Actúa como un punto de encuentro que resalta distintos eventos a nivel local. Además, permite realizar pagos de forma sencilla a través de Stripe, dándote la opción de adquirir entradas para cualquier evento o crear y administrar tus propios eventos.
 
-## Learn More
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-To learn more about Next.js, take a look at the following resources:
+- Node.js
+- Next.js
+- TypeScript
+- TailwindCSS
+- Stripe
+- Zod
+- React Hook Form
+- Shadcn
+- uploadthing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## <a name="features">🔋 Features</a>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+👉 **Autenticación (CRUD) con Clerk:** Gestión de usuarios a través de Clerk, garantizando una autenticación segura y eficiente.
 
-## Deploy on Vercel
+👉 **Eventos (CRUD):** Funcionalidad completa para crear, leer, actualizar y eliminar eventos, brindando a los usuarios control total sobre la gestión de eventos.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Crear Eventos: Los usuarios pueden generar nuevos eventos fácilmente, proporcionando detalles esenciales como título, fecha, ubicación y otra información adicional.
+Leer Eventos: Acceso sencillo a una vista detallada de todos los eventos, permitiendo a los usuarios explorar las especificaciones, descripciones, horarios y más.
+Actualizar Eventos: Los usuarios pueden modificar dinámicamente los detalles de los eventos, asegurando que la información se mantenga precisa y actualizada.
+Eliminar Eventos: Proceso directo para eliminar eventos del sistema, permitiendo a los administradores gestionar y organizar la plataforma de manera efectiva.
+👉 **Eventos Relacionados:** Conexión inteligente entre eventos relacionados, que se muestran en la página de detalles del evento, haciendo la experiencia más atractiva para los usuarios.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+👉 **Eventos Organizados:** Organización eficiente de los eventos, garantizando una visualización estructurada y amigable para la audiencia, mostrando los eventos creados por el usuario en su perfil.
+
+👉 **Buscar y Filtrar:** Sistema de búsqueda y filtrado robusto que permite a los usuarios encontrar fácilmente los eventos que se ajusten a sus preferencias.
+
+👉 **Nueva Categoría:** Categorías dinámicas que permiten la adición fluida de nuevas categorías de eventos, manteniendo la plataforma adaptable.
+
+👉 **Pago y Checkout con Stripe:** Transacciones de pago fluidas y seguras usando Stripe, mejorando la experiencia del usuario durante el proceso de compra.
+
+👉 **Órdenes de Eventos:** Sistema integral de gestión de pedidos, que ofrece una visión clara de todas las transacciones relacionadas con los eventos.
+
+👉 **Buscar Órdenes:** Funcionalidad de búsqueda rápida y eficiente para las órdenes, facilitando su seguimiento y gestión.
+
+Y mucho más, incluyendo arquitectura de código y reutilizació
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+Pasos para la instalacion:
+
+Usuarios de prueva:
+
